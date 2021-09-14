@@ -12,27 +12,34 @@
 
 <body>
   <header class="header container">
-
-    <% include  html/header/header-main.html %>
-    <% include  html/header/header-nav.html %>
+    <% include html/header/header-main.html %>
+    <% include html/header/header-nav.html %>
   </header>
 
   <main class="content">
     <header class="content-header">
       <% include html/home/home-banner.html %>
     </header>
-    <main class="content-main">
 
+    <main class="content-main">
+      <% include html/home/home-catalog-preview.html %>
+
+      <% include html/home/home-catalog-preview.html %>
+
+      <% include html/home/home-newsletter.html %>
+
+      <% include html/home/home-social.html %>
+
+      <% include html/home/home-store-locator.html %>
+
+      <% include html/home/home-payment.html %>
     </main>
   </main>
 
   <footer class="footer">
     <% include html/footer/footer-main.html %>
     <% include html/footer/footer-secondary.html %>
-
   </footer>
-
-
 </body>
 
 </html>
