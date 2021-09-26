@@ -1,0 +1,16 @@
+.header-search {
+  float: left;
+
+  li {
+    display: inline-block;
+
+    &:first-of-type {
+      color: $brand-primary;
+      margin-right: 8px;
+    }
+  }
+
+  .icon {
+    font-size: 30px;
+  }
+}

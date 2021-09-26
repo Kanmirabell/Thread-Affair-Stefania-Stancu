@@ -1,0 +1,44 @@
+.home-newsletter {
+  background-color: $gray-tertiary;
+  color: $white;
+  padding: 40px 0;
+  text-align: center;
+
+  form {
+    label {
+      font-size: 19px;
+      text-transform: uppercase;
+    }
+
+    span {
+      font-size: 55px;
+      font-weight: bold;
+    }
+
+    input {
+      background-color: transparent;
+      border: 0;
+      border-bottom: 1px solid $white;
+      padding-bottom: 8px;
+      color: $white;
+      text-transform: lowercase;
+      font-size: 19px;
+      text-align: center;
+      width: 80%;
+      margin: 36px auto;
+      font-weight: 100;
+    }
+
+    button[type='submit'] {
+      background: transparent url('../images/icons/mail-send.png') no-repeat
+        center right;
+      min-height: 60px;
+      padding-right: 130px;
+      font-size: 19px;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: $white;
+      border: none;
+    }
+  }
+}
